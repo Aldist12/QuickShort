@@ -123,7 +123,7 @@ namespace QuickShort
         }
         static void Main(string[] args)
         {
-            //Declaring the object of the class
+             //Declaring the object of the class
             Program myList = new Program();
             //Accept array elements
             myList.read();
