@@ -10,7 +10,7 @@ namespace QuickShort
     {
         //array of integers to hold values
         private int[] arr = new int[20];
-        private int cmp_count = 0; // number of comparasion
+        private int cmp_count = 0;  // number of comparasion
         private int mov_count = 0; // number of data movements
 
         // Number of elements in array
@@ -130,7 +130,7 @@ namespace QuickShort
             //Calling the sorting function
             //First call to Quick sort Algorithm
             myList.display();
-             // to exit from the console
+            // to exit from the console
             Console.WriteLine("\n\nPress Enter to exit.");
             Console.Read();
         }
