@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuickShort
 {
-   class Program
+    class Program
     {
         //array of integers to hold values
         private int[] arr = new int[20];
@@ -27,7 +27,7 @@ namespace QuickShort
                 if (n <= 20)
                     break;
                 else
-                    Console.WriteLine("\nArray can have maximum 20 elements \n";
+                    Console.WriteLine("\nArray can have maximum 20 elements \n");
             }
             Console.WriteLine("\n=======================");
             Console.WriteLine("Enter Array Elements");
@@ -103,7 +103,36 @@ namespace QuickShort
             //Sort the list on the right of pivot using quick sort
             q_short(j + 1, high);
         }
+
+        void display()
         {
+            Console.WriteLine("\n---------------------");
+            Console.WriteLine(" Sorted array elements ");
+            Console.WriteLine("-----------------------");
+
+            for (int j = 0; j < n; j++)
+            {
+                Console.WriteLine(arr[j]);
+            }
+            Console.WriteLine("\nNumber of comparisons: " + cmp_count);
+            Console.WriteLine("\nNumber of data movements: " + mov_count);
+        }
+        int getSize()
+        {
+            return (n);
+        }
+        static void Main(string[] args)
+        {
+            //Declaring the object of the class
+            Program myList = new Program();
+            //Accept array elements
+            myList.read();
+            //Calling the sorting function
+            //First call to Quick sort Algorithm
+            myList.display();
+            // to exit from the console
+            Console.WriteLine("\n\nPress Enter to exit.");
+            Console.Read();
         }
     }
 }
