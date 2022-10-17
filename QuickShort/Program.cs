@@ -128,9 +128,9 @@ namespace QuickShort
             //Accept array elements
             myList.read();
             //Calling the sorting function
-             //First call to Quick sort Algorithm
+            //First call to Quick sort Algorithm
             myList.display();
-            // to exit from the console
+             // to exit from the console
             Console.WriteLine("\n\nPress Enter to exit.");
             Console.Read();
         }
