@@ -93,7 +93,7 @@ namespace QuickShort
 
             if (low < j)
             {
-                //Move the pivot to its correct position in the list
+                 //Move the pivot to its correct position in the list
                 swap(low, j);
                 mov_count++;
             }
