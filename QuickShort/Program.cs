@@ -58,7 +58,7 @@ namespace QuickShort
 
             //Partition the list into two parts:
             //One containing elements less that or equal to pivot
-            //Outher containing elements greather then pivot
+             //Outher containing elements greather then pivot
 
             i = low + 1;
             j = high;
