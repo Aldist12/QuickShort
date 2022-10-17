@@ -127,7 +127,7 @@ namespace QuickShort
             Program myList = new Program();
             //Accept array elements
             myList.read();
-            //Calling the sorting function
+             //Calling the sorting function
             //First call to Quick sort Algorithm
             myList.display();
             // to exit from the console
