@@ -67,14 +67,14 @@ namespace QuickShort
 
             while (i <= j)
             {
-                 //Search for an element greather than pivot
+                //Search for an element greather than pivot
                 while ((arr[i] <= pivot) && (i <= high))
                 {
                     i++;
                     cmp_count++;
                 }
 
-                //Search for an element less than or equal to pivot
+                 //Search for an element less than or equal to pivot
                 while ((arr[j] > pivot) && (j >= low))
                 {
                     j--;
